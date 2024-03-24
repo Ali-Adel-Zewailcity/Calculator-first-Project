@@ -4,7 +4,7 @@ from PIL import Image
 root = tk.Tk()
 root.configure(bg="#1F1F1F")
 root.title("Calculator")
-root.iconbitmap("C:/Users/Lenovo/Pictures/Icons/Ico/calculator.ico")
+root.iconbitmap("calculator.ico")
 
 input = tk.Entry(root, bg="#383838", fg="#FFFFFF", width=36, borderwidth=5)
 input.grid(row=0, column=0, columnspan=5, padx=10, pady=10)
